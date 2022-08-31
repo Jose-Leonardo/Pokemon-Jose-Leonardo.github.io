@@ -1,0 +1,103 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-fire {
+    background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+}
+.bg-grass{
+    background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+}
+.bg-poison{
+    background: linear-gradient(177.03deg, #5B3184 -11.97%, #A564E3 71.28%, #CE9BFF 135.64%);
+}
+
+.bg-water{
+    background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+}
+
+.bg-bug{
+    background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+}
+.bg-normal{
+    background: linear-gradient(176.83deg, #96402A -8.78%, #F1613C 169.09%, #CB735D 242.33%);
+}
+.bg-flying{
+    background: linear-gradient(181.51deg, #735259 -6.44%, #BC6B7C 121.95%, #7C3F4C 186.11%);
+}
+.bg-rock{
+    background: linear-gradient(178.29deg,#7E7E7E 0.92%,#8D8D94  47.96%,#D3D3D3  99.08%);
+}
+.bg-ghost{
+    background: linear-gradient(178.29deg,#323569 0.92%,#454AA8  47.96%,#787DDA  99.08%);
+}
+.bg-dark{
+    background: linear-gradient(178.29deg,#030706 0.92%,#0D1211  47.96%, #5A5E5D  99.08%);
+}
+
+.bg-ice{
+    background: linear-gradient(178.29deg,#6FBEDF 0.92%,#64CBF5  47.96%,#BDEBFE 99.08%);
+}
+.bg-ground{
+    background: linear-gradient(178.29deg,#654008 0.92%,#895C1A  47.96%,#D69638   99.08%);
+}
+.bg-steel{
+    background: linear-gradient(178.29deg,#0C1395 0.92%,#2B319B  47.96%,#7075D9 99.08%);
+}
+.bg-fairy{
+    background: linear-gradient(178.29deg,#971B45 0.92%,#C23867  47.96%,#CD7D98 99.08%);
+}
+.bg-dragon{
+    background: linear-gradient(178.29deg,#478A93 0.92%,#56A4AE  47.96%,#A2BEC1   99.08%);
+}
+.bg-fighting{
+    background: linear-gradient(178.29deg,#96402A 0.92%,#E95B36   99.08%);
+}
+.bg-psychic{
+    background: linear-gradient(178.29deg,#323569 0.92%,#5B3184  99.08%);
+}
+.bg-dark{
+    background: linear-gradient(178.29deg, 0.92%,  47.96%,   99.08%);
+}
+
+button {
+    background-color:  #D93F3F;  
+}
+img{
+    height: 200px;
+}
+ul, li {
+    text-decoration: none;
+}
+.Mcard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pokedexCard{
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+}
+.infos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info{
+    width: 100px;
+}
+.almacen{
+    background-color: #ffe;
+    width: 340px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}

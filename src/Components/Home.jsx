@@ -22,8 +22,7 @@ const Home = () => {
       
   return (
     
-    <div>
-      <h1> hi entrenador </h1>
+    <div className='center'>
       <form onSubmit={handleSubmit}>
         <input id="name" type="text" />
         <button> go !</button>

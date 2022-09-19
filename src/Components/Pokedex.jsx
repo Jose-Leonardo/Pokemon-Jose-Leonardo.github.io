@@ -47,11 +47,13 @@ const pokedex = () => {
           optionType={optionType}
           setoptionType={setoptionType}
           setpokeSearch={setpokeSearch}  />
+        <div className='card_alineacion'>
         {
           pokemon?.results.map(pokemones => (
             <PokedexCard key={pokemones.url} url={pokemones.url} />
           ))
         }
+        </div>
       </div>
     </div>
   )

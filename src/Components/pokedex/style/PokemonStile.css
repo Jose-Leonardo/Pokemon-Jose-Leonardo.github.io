@@ -18,7 +18,7 @@ body{
 }
 
 .bg-bug{
-    background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+    background: linear-gradient(178.29deg, #62DB60 0.92%,#AAFFA8  47.96%,#3BB039  99.08%);
 }
 .bg-normal{
     background: linear-gradient(176.83deg, #96402A -8.78%, #F1613C 169.09%, #CB735D 242.33%);
@@ -71,9 +71,11 @@ ul, li {
     text-decoration: none;
 }
 .Mcard {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    margin: 25px;
+    transition: transform;
+}
+.Mcard:hover {
+   transform: translate(-2px, -2px);
 }
 .pokedexCard{
     text-align: center;

@@ -15,7 +15,7 @@ const PokemonDetails = () => {
   console.log(pokeinfo);
 
   return (
-    <div>
+    <div className='center'>
       <div className={`pokedexCard bg-${pokeinfo?.types[0].type.name}`}>
         <header >
         <img src={pokeinfo?.sprites.other["official-artwork"]["front_default"]} alt="" />

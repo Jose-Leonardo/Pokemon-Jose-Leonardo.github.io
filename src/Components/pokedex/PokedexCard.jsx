@@ -22,27 +22,27 @@ export const PokedexCard = ({url}) => {
   return (
     <div onClick={handlenClick} className="Mcard" >
       <div className={`pokedexCard bg-${poke?.types[0].type.name}`}>
-        <header >
-        <img src={poke?.sprites.other["official-artwork"]["front_default"]} alt="" />
-      </header>
-      <div className='almacen'>
-      <h3>{poke?.name} </h3>
-      <section>
-        <div>
+          <header >
+            <img className='imagen' src={poke?.sprites.other["official-artwork"]["front_default"]} alt="" />
+          </header>
+          <div className='almacen'>
+          <h3>{poke?.name}</h3>
+        <section>
+          <div>
+              {
+                poke?.types.map( slot =>(
+                  <span key={slot.type.url}>{slot.type.name}  </span>
+                ))
+              }
+          </div>
+        </section>
+          <footer className='infos'>
             {
-              poke?.types.map( slot =>(
-                <span key={slot.type.url}>{slot.type.name}  </span>
+            poke?.stats.map(stat => (
+              <StardPokemon key={stat.stat.url} info={stat}/>
               ))
             }
-        </div>
-      </section>
-        <footer className='infos'>
-          {
-          poke?.stats.map(stat => (
-            <StardPokemon key={stat.stat.url} info={stat}/>
-            ))
-          }
-        </footer>
+          </footer>
       </div>
       
       </div>

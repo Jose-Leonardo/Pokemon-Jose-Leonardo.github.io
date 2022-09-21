@@ -12,15 +12,15 @@ const PokemonDetails = () => {
     .then(res => setpokeinfo( res.data))
     .catch(err => console.log(err))
   }, [])
-  console.log(pokeinfo);
+  console.log(pokeinfo?.sprites.other);
 
   return (
-    <div className='center'>
-      <div className={`pokedexCard bg-${pokeinfo?.types[0].type.name}`}>
+    <div className={`center CardDetail ${pokeinfo?.types[0].type.name}`}> 
+      <div className={`pokedexCard `}>
         <header >
-        <img src={pokeinfo?.sprites.other["official-artwork"]["front_default"]} alt="" />
-      </header>
-      <div className='almacen'>
+          <img className='imagen2' src={pokeinfo?.sprites.other["official-artwork"]["front_default"]} alt="" />
+        </header>
+      <div className={`almacen `}>
       <h3>{name} </h3>
       <section>
         <div>

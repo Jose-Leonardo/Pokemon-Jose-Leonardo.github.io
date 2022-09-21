@@ -41,12 +41,15 @@ const pokedex = () => {
   return (
     <div>
       <div className="card">
-        <h2>welcome {nameTraider} </h2>
+        <header className='HomePadre'>
+          <h2>welcome {nameTraider} </h2>
         <SearchInput setpokeSearch1={setpokeSearch} setoptionType={setoptionType} />
         <SelectType 
           optionType={optionType}
           setoptionType={setoptionType}
           setpokeSearch={setpokeSearch}  />
+        </header>
+        
         <div className='card_alineacion'>
         {
           pokemon?.results.map(pokemones => (

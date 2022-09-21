@@ -2,7 +2,7 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { setNameTraider } from '../Store/slices/nameTraider'
-
+import imgpokedex from "./imagenes/imagen.png"
 const Home = () => {
   const navigate = useNavigate()
   const disptch = useDispatch()
@@ -23,6 +23,7 @@ const Home = () => {
   return (
     
     <div className='center'>
+      <img src={imgpokedex} alt="" />
       <form onSubmit={handleSubmit}>
         <input id="name" type="text" />
         <button> go !</button>

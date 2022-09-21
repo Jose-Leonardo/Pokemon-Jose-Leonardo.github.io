@@ -1,3 +1,7 @@
+.App{
+    background-color: azure;
+    position: relative;
+}
 .card{
     text-align: center;
 }
@@ -11,4 +15,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.HomePadre{
+    position: relative;
+    background-color: aqua;
 }

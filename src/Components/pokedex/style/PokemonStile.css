@@ -33,7 +33,7 @@ body{
     background: linear-gradient(178.29deg,#323569 0.92%,#454AA8  47.96%,#787DDA  99.08%);
 }
 .bg-dark{
-    background: linear-gradient(178.29deg,#030706 0.92%,#0D1211  47.96%, #5A5E5D  99.08%);
+    background: linear-gradient(178.29deg,#030706 0.92%,#3d3e3d  47.96%, #5A5E5D  99.08%);
 }
 
 .bg-ice{
@@ -64,7 +64,7 @@ body{
 button {
     background-color:  #D93F3F;  
 }
-img{
+.imagen{
     height: 200px;
 }
 ul, li {
@@ -102,4 +102,67 @@ ul, li {
     margin-left: 5px;
     margin-bottom: 5px;
     border-radius: 10px;
+}
+/** pokemons details */ 
+.imagen2{
+    height: 300px;
+}
+.CardDetail{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.water{
+    background-image: url("./acuaticos.jpg");
+}
+.fire {
+    background-image: url("./imgBagraund/fuego.jpg");
+}
+.grass{
+    background-image: url("./imgBagraund/planta.jpg");
+}
+.poison{
+    background-image: url("./imgBagraund/planta.jpg");
+}
+
+.bug{
+    opacity: .9;
+    background-image: url("./imgBagraund/bug.jpg");
+}
+.normal{
+    background-image: url("./agua.png");
+}
+.flying{
+    background-image: url("./imgBagraund/planta.jpg");
+}
+.rock{
+    background-image: url("./imgBagraund/rock.jpg");
+}
+.ghost{
+    background-image: url("./imgBagraund/oscuro.jpg");
+}
+.dark{
+    background-image: url("./imgBagraund/dark.jpg")
+}
+
+.ice{
+    background-image: url("./imgBagraund/planta.jpg");
+}
+.ground{
+    background-image: url("./imgBagraund/rocas.jpg");
+}
+.steel{
+    background-image: url("./imgBagraund/planta.jpg");
+}
+.fairy{
+    background-image: url("./imgBagraund/planta.jpg");
+}
+.dragon{
+    background-image: url("./imgBagraund/planta.jpg");
+}
+.fighting{
+    background-image: url("./imgBagraund/planta.jpg");
+}
+.psychic{
+    background-image: url("./imgBagraund/dark.jpg");
 }

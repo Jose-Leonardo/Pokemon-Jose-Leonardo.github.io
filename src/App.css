@@ -1,5 +1,4 @@
 .App{
-    background-color: azure;
     position: relative;
 }
 .card{
@@ -18,5 +17,12 @@
 }
 .HomePadre{
     position: relative;
-    background-color: aqua;
+}
+.order{
+    display: flex;
+    flex-direction: column;
+}
+.imgpokedex{
+    height: 150px;
+    margin: 50px;
 }

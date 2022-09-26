@@ -22,12 +22,17 @@ const Home = () => {
       
   return (
     
-    <div className='center'>
-      <img src={imgpokedex} alt="" />
-      <form onSubmit={handleSubmit}>
+    <div className='center order'>
+      <div>
+        <img src={imgpokedex} alt="" className='imgpokedex'/>
+      </div>
+      <div>
+        <form onSubmit={handleSubmit}>
         <input id="name" type="text" />
         <button> go !</button>
       </form>
+      </div>
+      
     </div>
   )
 }
